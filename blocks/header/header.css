@@ -1,0 +1,10 @@
+.header {
+    max-width: 100%;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    align-items: center;
+    border-radius: .5rem;
+    background-color: aqua;
+}

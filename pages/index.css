@@ -1,14 +1,20 @@
 /*vendor*/
-@import url(../vendors/reset.css);
+/* @import url(../vendors/reset.css); */
 @import url(../vendors/normalize.css);
 
 /*fonts*/
 @import url(../fonts/fonts_from_google.css);
 
-
-/*root*/ 
-@import url(../blocks/root/root.css); 
-
+/*root*/
+@import url(../blocks/root/root.css);
 
 /* page */
 @import url(../blocks/page/page.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__in-out/__in-out.css);
+@import url(../blocks/header/__link/__link.css);
+@import url(../blocks/header/__link/_logo/_logo.css);
+@import url(../blocks/header/__link/_mini/_mini.css);
+@import url(../blocks/header/__link/_lg/_lg.css);

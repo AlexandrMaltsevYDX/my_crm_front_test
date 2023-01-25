@@ -14,14 +14,58 @@
 <body class="root">
   <div class="page">
     <!-- header -->
-      <!-- top nav -->
+    <header class="header">
+      <!-- logo -->
+      <a href="#" class="header__link header__link_logo">LogoCRM</a>
+      <!-- navigation -->
+      <div class="header__in-out">
+        <!-- links -->
+        <!-- Почему между элементами a есть зазор -->
+        <a href="#" class="header__link header__link_sign-out header__link_lg">Sign in</a>
+        <a href="#" class="header__link header__link_sign-in header__link_lg">Sign out</a>
+        <a href="#" class="header__link header__link_sign-in header__link_mini">in</a>
+        <a href="#" class="header__link header__link_sign-out header__link_mini">out</a>
+      </div>
+    </header>
 
     <!-- main -->
-      <!-- side nav -->
-        <!-- partions -->
-          <!-- blocks -->
+    <!-- side nav -->
+    <!-- partions -->
+    <!-- blocks -->
 
+    <!-- footer -->
+
+    <!-- pop up -->
+    <!-- pop up sign in -->
+    <!--popup-->
+    <div class="popup">
+      <div class="popup__container">
+        <button class="popup__close-button" type="button">
+        </button>
+        <div class="popup__content">
+          <h2 class="popup__title">
+            Log in
+          </h2>
+          <form class="popup__profile-form" name="profile-info">
+            <fieldset class="popup__profile-fieldset">
+              <input class="popup__input popup__input_txt_email" type="text" name="email" placeholder="Email" required
+                value="">
+              <input class="popup__input popup__input_txt_password" type="text" name="password" placeholder="password"
+                required value="">
+              <input class="popup__input popup__input_txt_password-again" type="text" name="password-again"
+                placeholder="password-again" required value="">
+            </fieldset>
+            <button class="popup__login-button" type="submit">
+              log in
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
+  <!--script-->
+  </div>
+  <script src="./scripts/index.js" defer></script>
 </body>
 
 </html>
