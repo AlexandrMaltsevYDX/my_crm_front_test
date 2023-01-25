@@ -1,0 +1,14 @@
+/*vendor*/
+@import url(../vendors/reset.css);
+@import url(../vendors/normalize.css);
+
+/*fonts*/
+@import url(../fonts/fonts_from_google.css);
+
+
+/*root*/ 
+@import url(../blocks/root/root.css); 
+
+
+/* page */
+@import url(../blocks/page/page.css);
